@@ -1,0 +1,67 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    background-color: #17164d;
+    padding-bottom: 0;
+    margin: 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+body {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+  }
+
+
+p {
+    font-size: larger;
+    font-family: 'Courier New', sans-serif;
+}
+
+header, footer {
+    text-align: left;
+    width: 100vw;
+    margin: 0;
+    background-color: rgba(32, 31, 31, 0.801);
+}
+
+header{
+    border-bottom: solid 2px #ffffff;
+}
+
+header h1 {
+    text-align: center;
+    left: 1000px;
+}
+
+.logo {
+    position: absolute;
+    height: 105px;
+    width: auto;
+}
+
+footer {
+    border-top: solid 2px #ffffff;
+}
+
+button{
+    width: 10%;
+    border: none;
+    background-color: #591f7a;
+    color: #ffffff;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+}
+
+.homeLogo {
+    width: 1200px;
+    min-height: auto;
+    align-self: center;
+}
