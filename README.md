@@ -1,16 +1,8 @@
-Barback
+# React + Vite
 
-Partners: @k.ai
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Introduction
-Being in the restaurant business learning new things can be challenging such as bartending. 
-Never having bartended in your life means you don't know the extensive cocktail recipes needed to make a 
-fine craft cocktail. However, that's okay with Barback they've got your back. Barback is a web-based
-game trained to teach users on ingredients of commonly ordered cocktails and quiz them so that
-they can engagingly learn through repetition.
+Currently, two official plugins are available:
 
-
-About:
-Users will reach our webpage, and upon entering they choose to participate in our game that will quiz the
-users on components of a cocktails, where they will choose their answer in a multiple choice style game
-similar to "Who Wants to be a Millionaire?".
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
